@@ -1,0 +1,159 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: 'Work Sans', sans-serif;
+}
+
+/* common css style start here */
+.btn-primary {
+    background-color: #fff;
+    border-radius: 5px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #005FAC;
+    border: 0;
+    padding: 20px 25px;
+
+}
+
+section {
+    padding-top: 130px;
+}
+
+/* common css style end here */
+/* banner css style end here */
+.banner {
+    background-image: url(../images/banner/banner3.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.banner-text {
+    padding: 110px 144px 200px 560px;
+    text-align: right;
+}
+
+.banner-titel {
+    font-weight: 700;
+    font-size: 65px;
+    line-height: 76px;
+    color: #fff;
+}
+
+.banner-subtitel {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #fff;
+    padding-left: 38px;
+    margin-bottom: 30px;
+}
+
+/* failure-year css style start here */
+.failure-year {
+    padding: 130px 200px 0 200px;
+}
+
+.fail-img {
+    width: 50%;
+}
+
+.fail-text {
+    width: 50%;
+}
+
+.failure-container {
+    display: flex;
+    gap: 85px;
+    align-items: center;
+}
+
+.text-titel {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    color: #151414;
+}
+
+.fail-text-subtitel {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #444343;
+    padding-top: 10px;
+    /* padding-bottom: 16px; */
+}
+
+.fail-items i {
+    color: #16D887;
+    font-size: 20px;
+}
+
+/* failure-year css style end here */
+/* my-plan css style start here */
+.my-plan {
+    padding: 130px 110px 0 110px;
+    text-align: center;
+}
+
+.my-plan .text-titel {
+    padding-bottom: 50px;
+}
+.main-plan{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+
+.plan-titel {
+    font-weight: 700;
+    font-size: 22px;
+    color: #151414;
+}
+
+.plan-description{
+    font-weight: 500;
+    font-size: 18px;
+    color: #737272;
+}
+
+/* my-plan css style end here */
+/* my-blog css style start here */
+.my-blog {
+    padding: 130px 110px 0 110px;
+    text-align: center;
+}
+.blog-main{
+    display: flex;
+    gap: 24px;
+    padding-top: 50px;
+    text-align: left;
+}
+.blog-items img{
+    width: 320px;
+    height: 300px;
+}
+.blog-titel{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #444343;
+    padding-bottom: 20px;
+}
+.blog-items .btn-primary{
+    background-color: #005FAC;
+    color: #fff;
+    padding: 10px 30px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+/* my-blog css style end here */
+/* keep-positive css style start here */
+.keep-positive{
+    padding: 130px 110px 0 110px;
+}
+/* keep-positive  css style end here */
