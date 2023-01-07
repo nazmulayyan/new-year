@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     text-decoration: none;
+    box-sizing: border-box;
     font-family: 'Work Sans', sans-serif;
 }
 
@@ -31,7 +32,7 @@ section {
 }
 
 .banner-text {
-    padding: 110px 144px 200px 560px;
+    padding: 10px 144px 200px 600px;
     text-align: right;
 }
 
@@ -101,7 +102,8 @@ section {
 .my-plan .text-titel {
     padding-bottom: 50px;
 }
-.main-plan{
+
+.main-plan {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -114,7 +116,7 @@ section {
     color: #151414;
 }
 
-.plan-description{
+.plan-description {
     font-weight: 500;
     font-size: 18px;
     color: #737272;
@@ -126,34 +128,151 @@ section {
     padding: 130px 110px 0 110px;
     text-align: center;
 }
-.blog-main{
+
+.blog-main {
     display: flex;
     gap: 24px;
     padding-top: 50px;
     text-align: left;
 }
-.blog-items img{
-    width: 320px;
-    height: 300px;
+
+.blog-items {
+    /* border: 1px solid #737272; */
+    width: 33.33%;
+    box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.09);
+    border-radius: 10px;
 }
-.blog-titel{
+
+.blog-items img {
+    border-radius: 10px;
+    height: 200px;
+}
+
+.blog-text {
+    padding: 25px;
+}
+
+.blog-titel {
     font-weight: 400;
     font-size: 16px;
     line-height: 26px;
     color: #444343;
     padding-bottom: 20px;
 }
-.blog-items .btn-primary{
+
+.blog-items .btn-primary {
     background-color: #005FAC;
     color: #fff;
     padding: 10px 30px;
     font-size: 18px;
-    font-weight: 500;
+    font-weight: 400;
 }
 
 /* my-blog css style end here */
 /* keep-positive css style start here */
-.keep-positive{
-    padding: 130px 110px 0 110px;
+.keep-positive {
+    padding: 130px 130px 130px 110px;
 }
+
+.keep-img {
+    position: relative;
+}
+
+.img-overlay {
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    background: linear-gradient(90deg, #005FAC 0%, rgba(0, 95, 172, 0) 100%);
+}
+
+.keep-text {
+    padding: 60px 350px 60px 60px;
+}
+
+.keep-titel {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    color: #FFFFFF;
+    margin-bottom: 24px;
+}
+
+.keep-text .btn-primary {
+    padding: 10px 25px;
+}
+
 /* keep-positive  css style end here */
+/* footer  css style end here */
+.footer {
+    background: #000;
+    padding: 130px 170px 130px 110px;
+}
+
+.footer-main {
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-titel {
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 53px;
+    margin-bottom: 16px;
+}
+
+.footer-subtitel {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    margin-bottom: 24px;
+    padding-right: 260px;
+}
+
+.footer-email {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    margin-bottom: 16px;
+}
+
+.footer-icon {
+    margin-top: 16px;
+}
+
+.footer-icon a {
+    margin-right: 16px;
+}
+.footer-icon img{
+    width: 46px;
+    height: 46px;
+}
+.subscribe {
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 29px;
+    margin-bottom: 30px;
+}
+
+.footer-items input {
+    width: 100%;
+    padding: 20px;
+    background: none;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    color: #fff;
+    margin-bottom: 16px;
+}
+
+.footer-items .btn-primary {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    padding: 10px 23px;
+}
+
+/* footer  css style end here */
